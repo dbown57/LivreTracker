@@ -8,7 +8,7 @@
             "name": "C#: LivreTracker Debug",
             "type": "dotnet",
             "request": "launch",
-            "projectPath": "${workspaceFolder}/Web/Web.csproj"
+            "projectPath": "${workspaceFolder}/src/Web/Web.csproj"
         },
         {
             "name": "debug-hot-reload",
@@ -22,7 +22,7 @@
                 ".",
                 "--verbose"
             ],
-            "cwd": "${workspaceFolder}/Web",
+            "cwd": "${workspaceFolder}/src/Web",
             "stopAtEntry": false,
             "serverReadyAction": {
                 "action": "openExternally",
@@ -43,7 +43,7 @@
             "preLaunchTask": "build",
             "program": "${workspaceFolder}/Web/bin/Debug/net9.0/Web.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/Web",
+            "cwd": "${workspaceFolder}/src/Web",
             "stopAtEntry": false,
             "serverReadyAction": {
                 "action": "openExternally",
